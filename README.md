@@ -1,2 +1,2 @@
 # my_project
-mircto 612
+start mircto 612
