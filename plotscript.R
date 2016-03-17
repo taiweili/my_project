@@ -2,7 +2,7 @@
 
 library(ggplot2)
 library("devtools")
-#install_github("leeper/rio")
+install_github("leeper/rio")
 library("rio")
 
 #get the gapminder profile: import is a function in package of need devtool and rio 
