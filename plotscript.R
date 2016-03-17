@@ -9,7 +9,7 @@ library("rio")
 gapminder <- import("https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv")
 
 # correlation of population size, GDP and life expectency in different continent
-gap_graphic <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() + scale_size_area(max_size = 15)
+gap_graphic <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() +facet_wrap( ~ continent)+ scale_size_area(max_size = 8)
 
 
 gap_graphic
