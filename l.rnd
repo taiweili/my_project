@@ -1,3 +1,0 @@
-heights <- c(34,40,50)
-ave_heights < mean(heights)
-sd_heights <- sd(heights)
