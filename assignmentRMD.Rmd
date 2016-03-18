@@ -23,14 +23,25 @@ gapminder <- import("https://raw.githubusercontent.com/resbaz/r-novice-gapminder
 ```
 
 
-# correlation of population size, GDP and life expectency in different continent
+# correlation of population size, GDP and life expectency in different continent fig (1)
 ```{r}
-gap_graphic <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() + scale_size_area(max_size = 15)
+gap_graphic1 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() +facet_wrap( ~ continent)+ scale_size_area(max_size = 8)
 ```
 
-#run the plot
+#run the plot fig (1)
 ```{r}
-gap_graphic
+gap_graphic1
+```
+
+
+# correlation of population size, GDP and life expectency in different continent fig (2)
+```{r}
+gap_graphic2 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() + scale_size_area(max_size = 15)
+```
+
+#run the plot fig (2)
+```{r}
+gap_graphic2
 ```
 
 
