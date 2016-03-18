@@ -30,7 +30,7 @@ gap_graphic1 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 
 #run the plot fig (1)
 ```{r}
-ggplot2::qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() +facet_wrap( ~ continent)+ scale_size_area(max_size = 8)
+qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() +facet_wrap( ~ continent)+ scale_size_area(max_size = 8)
 ```
 
 
@@ -41,7 +41,7 @@ gap_graphic2 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 
 #run the plot fig (2)
 ```{r}
-ggplot2::qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() + scale_size_area(max_size = 15)
+qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=continent) + scale_y_log10() + scale_size_area(max_size = 15)
 ```
 
 
