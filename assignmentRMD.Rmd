@@ -29,8 +29,10 @@ gap_graphic1 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 ```
 
 run the plot fig (1)
+
+![](./fig1.png)
 ```{r}
-gap_graphic1
+
 ```
 
 
@@ -40,8 +42,10 @@ gap_graphic2 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 ```
 
 run the plot fig (2)
+
+![](./fig.2.png)
 ```{r}
-gap_graphic2
+
 ```
 
 
