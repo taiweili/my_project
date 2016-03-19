@@ -31,9 +31,6 @@ gap_graphic1 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 run the plot fig (1)
 
 ![](./fig1.png)
-```{r}
-
-```
 
 
 correlation of population size, GDP and life expectency in different continent fig (2)
@@ -44,9 +41,7 @@ gap_graphic2 <- qplot(lifeExp, gdpPercap, data = gapminder, size = pop, color=co
 run the plot fig (2)
 
 ![](./fig.2.png)
-```{r}
 
-```
 
 
 
